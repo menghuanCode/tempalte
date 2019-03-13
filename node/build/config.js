@@ -1,5 +1,5 @@
 const path = require('path')
-const merge = require('webpack-merge')
+const CopyPlugin = require('copy-webpack-plugin')
 
 function resolve(dir) {
     return path.resolve(__dirname, '../', dir)
@@ -24,8 +24,7 @@ module.exports = {
             }, {
                 loader: "html-loader",
                 options: {
-                    attrs: ['data-src', 'link:href'],
-                    root: resolve('src/assets')
+                    attrs: ['data-src', 'link:href']
                 }
             }]
         }, {
@@ -99,5 +98,10 @@ module.exports = {
                 }
             }]
         }]
-    }
+    },
+    plugins: [
+        new CopyPlugin([
+            { from: 'src/libs', to: 'libs' },
+        ])
+    ]
 }

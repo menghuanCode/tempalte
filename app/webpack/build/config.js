@@ -1,5 +1,5 @@
 const path = require('path')
-const CopyPlugin = require('copy-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin')
 
 function resolve(dir) {
     return path.resolve(__dirname, '../', dir)
