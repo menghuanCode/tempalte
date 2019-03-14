@@ -1,15 +1,21 @@
 const path = require('path')
+const webpack = require('webpack')
 const CopyPlugin = require('copy-webpack-plugin')
 
 function resolve(dir) {
-    return path.resolve(__dirname, '../', dir)
+    return path.resolve(__dirname, '..', dir)
 }
 
 module.exports = {
-    entry: resolve('src/app.js'),
+    mode: 'production',
+    entry: {
+        app: resolve('src/app.js'),
+        layout: resolve('src/js/layout.js'),
+    },
     output: {
         path: resolve('dist'),
-        filename: "js/layout.js"
+        filename: 'js/[name].js',
+        chunkFilename: 'js/[name].js'
     },
     module: {
         rules: [{
@@ -17,10 +23,10 @@ module.exports = {
             use: [{
                 loader: 'file-loader',
                 options: {
-                    name: '[name].html'
+                    name: '[name].[ext]'
                 }
             }, {
-                loader: "extract-loader"
+                loader: "extract-loader",
             }, {
                 loader: "html-loader",
                 options: {
@@ -46,7 +52,6 @@ module.exports = {
                 options: {
                     ident: 'postcss',
                     plugins: [
-                        require('postcss-sprites')(),
                         require('autoprefixer')(),
                         require('cssnano')()
                     ]
@@ -57,7 +62,7 @@ module.exports = {
         }, {
             test: /\.js$/,
             exclude: /(node_modules|bower_components)/,
-            use: [{
+            use: [ {
                 loader: 'babel-loader',
                 options: {
                     presets: ['@babel/preset-env'],
@@ -71,7 +76,10 @@ module.exports = {
             use: [{
                 loader: "url-loader",
                 options: {
-                    limit: 10000
+                    limit: 10000,
+                    publicPath: '../images',
+                    outputPath: 'images',
+                    name: '[name].[ext]'
                 }
             }, {
                 loader: "img-loader",
@@ -86,7 +94,8 @@ module.exports = {
                         }),
                         require('imagemin-pngquant')({
                             floyd: 0.5,
-                            speed: 2
+                            speed: 11,
+                            quality: [0.6, 0.6]
                         }),
                         require('imagemin-svgo')({
                             plugins: [

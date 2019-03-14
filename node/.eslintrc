@@ -11,6 +11,8 @@
         "no-else-return"   : 1,
         "semi"             : [0, "always"],
         "space-unary-ops"  : 2,
+        "no-console"       : 0,
+        "no-unused-vars"   : 0
     },
     "parserOptions": {
         "sourceType": "module"

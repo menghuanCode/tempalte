@@ -12,7 +12,7 @@ let devConfig = {
     devServer: {
         contentBase: resolve('dist'),
         compress: true,
-        port: 9000
+        port: 8000
     }
 }
 
