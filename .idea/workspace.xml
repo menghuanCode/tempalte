@@ -3,26 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa1c9125-c780-446d-8ba5-76b93656fa87" name="默认" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/webpack/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/app/webpack/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/webpack/build/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/webpack/build/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/webpack/build/webpack.build.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/webpack/build/webpack.build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/webpack/build/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/webpack/build/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/webpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/webpack/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/webpack/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/webpack/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/webpack/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/webpack/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/webpack/src/js/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/webpack/src/js/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/webpack/src/sass/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/webpack/src/sass/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node/.eslintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/build/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/build/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/build/webpack.build.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/build/webpack.build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/build/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/build/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node/src/sass/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/node/src/sass/layout.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -97,27 +77,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/node/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/node/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node/src/js/layout.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -175,13 +141,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="tempalte" type="b2602c69:ProjectViewProjectNode" />
               <item name="tempalte" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tempalte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tempalte" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tempalte" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tempalte" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tempalte" type="b2602c69:ProjectViewProjectNode" />
@@ -205,6 +181,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,12 +224,13 @@
       <workItem from="1552192911071" duration="2420000" />
       <workItem from="1552217819415" duration="610000" />
       <workItem from="1552464238724" duration="166000" />
-      <workItem from="1552544878862" duration="152000" />
+      <workItem from="1552544878862" duration="253000" />
+      <workItem from="1552894323825" duration="628000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3348000" />
+    <option name="totallyTimeSpent" value="4077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -263,10 +241,10 @@
       <window_info anchor="bottom" id="调试" order="11" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46564886" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46564886" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Project Explorer" order="2" />
       <window_info id="Job Explorer" order="2" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -290,6 +268,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/src/js/layout.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -330,10 +332,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node/package.json">
+    <entry file="file://$PROJECT_DIR$/app/webpack/build/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        <state relative-caret-position="98">
+          <caret line="103" column="29" lean-forward="true" selection-start-line="103" selection-start-column="29" selection-end-line="103" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -342,8 +344,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="114">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
       </provider>
     </entry>
