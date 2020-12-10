@@ -1,0 +1,74 @@
+
+html {
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Microsoft JhengHei", 微軟正黑體, "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, Lato, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-touch-callout: none;
+  touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+  padding-top: constant(safe-area-inset-top);
+  padding-left: constant(safe-area-inset-left);
+  padding-right: constant(safe-area-inset-right);
+  padding-bottom: constant(safe-area-inset-bottom);
+}
+
+input, textarea {
+  font-family: "Microsoft JhengHei", 微軟正黑體, "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, Lato, sans-serif;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: #ffffff;
+}
+a:hover, a:link, a:visited {
+  color: #ffffff;
+}
+
+p {
+  margin: 0;
+}
+
+ul, ol {
+  padding-left: 0px;
+}
+
+::-webkit-input-placeholder,
+:-moz-placeholder,
+::-moz-placeholder,
+:-ms-input-placeholder {
+  color: #d6d4d7;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}

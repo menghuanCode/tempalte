@@ -1,0 +1,31 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix{overflow:auto;_height:1%}
+.clear{clear:both;height:0;overflow:hidden;}
+
+
+.container {
+  left: 50%;
+  width: 10rem;
+  margin-left: -5rem;
+}
+
+.container, .page, .pages {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page, .pages {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+

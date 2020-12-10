@@ -1,0 +1,10 @@
+@function rem($size) {
+  @return $size / 75 + rem;
+}
+
+@mixin dpr($img) {
+  background-image: url("../images/@2x/#{$_img}");
+  [data-dpr="3"] {
+    background-image: url("../images/@3x/#{$_img}");
+  }
+}

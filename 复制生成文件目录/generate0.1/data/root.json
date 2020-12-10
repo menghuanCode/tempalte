@@ -1,0 +1,170 @@
+[
+    {
+        "path": "/rootId10",
+        "name": "rootId10",
+        "icon": "icon-shezhi",
+        "component": "./index",
+        "text": "消费记账",
+        "routes": [
+            {
+                "name": "bookkeepingSetting",
+                "path": "/rootId10/bookkeepingSetting",
+                "text": "消费记账系统配置",
+                "component": "./rootId10/bookkeepingSetting"
+            },
+            {
+                "name": "bkMerchant",
+                "path": "/rootId10/bkMerchant",
+                "text": "商家管理",
+                "component": "./rootId10/bkMerchant"
+            },
+            {
+                "name": "mchDiscountInfo",
+                "path": "/rootId10/mchDiscountInfo",
+                "text": "商家优惠信息",
+                "component": "./rootId10/mchDiscountInfo"
+            },
+            {
+                "name": "mchDiscountSetting",
+                "path": "/rootId10/mchDiscountSetting",
+                "text": "商家优惠方案",
+                "component": "./rootId10/mchDiscountSetting"
+            },
+            {
+                "name": "bkBookkeeping",
+                "path": "/rootId10/bkBookkeeping",
+                "text": "消费记账记录",
+                "component": "./rootId10/bkBookkeeping"
+            },
+            {
+                "name": "beAccount",
+                "path": "/rootId10/beAccount",
+                "text": "记账权账户",
+                "component": "./rootId10/beAccount"
+            },
+            {
+                "name": "beAccountRecord",
+                "path": "/rootId10/beAccountRecord",
+                "text": "记账权账户明细 ",
+                "component": "./rootId10/beAccountRecord"
+            },
+            {
+                "name": "beChain",
+                "path": "/rootId10/beChain",
+                "text": "权益上链记录",
+                "component": "./rootId10/beChain"
+            },
+            {
+                "name": "authorizedAssetAccount",
+                "path": "/rootId10/authorizedAssetAccount",
+                "text": "授权帐号",
+                "component": "./rootId10/authorizedAssetAccount"
+            },
+            {
+                "name": "authAccountRecord",
+                "path": "/rootId10/authAccountRecord",
+                "text": "授权帐号资金明细",
+                "component": "./rootId10/authAccountRecord"
+            },
+            {
+                "name": "authorizedBalanceRecord",
+                "path": "/rootId10/authorizedBalanceRecord",
+                "text": "授权资金申请记录",
+                "component": "./rootId10/authorizedBalanceRecord"
+            },
+            {
+                "name": "bkTradeType",
+                "path": "/rootId10/bkTradeType",
+                "text": "消费类型",
+                "component": "./rootId10/bkTradeType"
+            },
+            {
+                "name": "bkMerchantProduct",
+                "path": "/rootId10/bkMerchantProduct",
+                "text": "商家商品管理",
+                "component": "./rootId10/bkMerchantProduct"
+            },
+            {
+                "name": "bkMerchantCollect",
+                "path": "/rootId10/bkMerchantCollect",
+                "text": "收藏商家",
+                "component": "./rootId10/bkMerchantCollect"
+            },
+            {
+                "name": "bkCandyQuotaAccount",
+                "path": "/rootId10/bkCandyQuotaAccount",
+                "text": "商家糖果额度账户",
+                "component": "./rootId10/bkCandyQuotaAccount"
+            },
+            {
+                "name": "bkCandyQuotaAccountRecord",
+                "path": "/rootId10/bkCandyQuotaAccountRecord",
+                "text": "商家糖果额度账单",
+                "component": "./rootId10/bkCandyQuotaAccountRecord"
+            },
+            {
+                "name": "bkMerchantHours",
+                "path": "/rootId10/bkMerchantHours",
+                "text": "商家营业时间",
+                "component": "./rootId10/bkMerchantHours"
+            },
+            {
+                "name": "bkCandyQuotaApply",
+                "path": "/rootId10/bkCandyQuotaApply",
+                "text": "商家糖果额度申请",
+                "component": "./rootId10/bkCandyQuotaApply"
+            },
+            {
+                "name": "bkMerchantVerifyRecord",
+                "path": "/rootId10/bkMerchantVerifyRecord",
+                "text": "商家审核",
+                "component": "./rootId10/bkMerchantVerifyRecord"
+            },
+            {
+                "name": "bkBookkeepingEvaluate",
+                "path": "/rootId10/bkBookkeepingEvaluate",
+                "text": "消费评价",
+                "component": "./rootId10/bkBookkeepingEvaluate"
+            }
+        ]
+    },
+    {
+        "path": "/rootId11",
+        "name": "rootId11",
+        "icon": "icon-shezhi",
+        "component": "./index",
+        "text": "交易所",
+        "routes": [
+            {
+                "name": "bbexchange/account",
+                "path": "/rootId11/bbexchange/account",
+                "text": "账户信息",
+                "component": "./rootId11/bbexchange/account"
+            },
+            {
+                "name": "bbexchange/product",
+                "path": "/rootId11/bbexchange/product",
+                "text": "产品交易对",
+                "component": "./rootId11/bbexchange/product"
+            },
+            {
+                "name": "bbexchange/bill",
+                "path": "/rootId11/bbexchange/bill",
+                "text": "账单信息",
+                "component": "./rootId11/bbexchange/bill"
+            },
+            {
+                "name": "bbexchange/order",
+                "path": "/rootId11/bbexchange/order",
+                "text": "订单信息",
+                "component": "./rootId11/bbexchange/order"
+            },
+            {
+                "name": "bbexchange/bill",
+                "path": "/rootId11/bbexchange/bill",
+                "text": "账单信息",
+                "component": "./rootId11/bbexchange/bill"
+            }
+        ]
+    }
+]
